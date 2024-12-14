@@ -17,5 +17,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="hello_world.lua">
+      <Filter>res</Filter>
+    </None>
   </ItemGroup>
 </Project>

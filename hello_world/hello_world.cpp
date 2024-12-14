@@ -9,6 +9,8 @@ int main()
 
     luaL_dostring(L, "print('Hello, World!')");
 
+    luaL_dofile(L, "hello_world.lua");
+
     lua_close(L);
     return 0;
 }
