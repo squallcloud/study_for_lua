@@ -17,8 +17,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="hello_world.lua">
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="hello_world.lua">
       <Filter>res</Filter>
-    </None>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
