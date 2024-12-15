@@ -19,4 +19,12 @@
       <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="test.lua">
+      <Filter>リソース ファイル</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
 </Project>
